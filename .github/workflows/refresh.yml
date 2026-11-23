@@ -29,7 +29,12 @@ jobs:
       - name: Validate collectors
         run: python -m unittest discover -s tests -v
       - name: Check published reports and ratings
-        run: python scripts/refresh.py
+        run: |
+          if [ "${{ github.event_name }}" = 'schedule' ]; then
+            python scripts/refresh.py
+          else
+            python scripts/refresh.py --force
+          fi
       - name: Validate page data and Excel
         run: python scripts/validate.py
       - name: Save verified data
