@@ -11,8 +11,14 @@ for k,p in d['periods'].items():
 for f in d['ratings']['records']:
     for s in f['scores'].values():
         if s['value'] is not None:assert s['checked_date'] and 0<=s['value']<=s['scale']
-w=load_workbook(root/'site/kinopulse.xlsx',read_only=True,data_only=True)
-assert len(w.sheetnames)==4
+w=load_workbook(root/'site/kinopulse.xlsx',data_only=True)
+assert len(w.sheetnames)==5 and w.sheetnames[0]=='Описание'
+assert w['Описание']['B2'].hyperlink.target=='https://vidosiq.github.io/KINO-prokat-radar/'
+for ws in w:
+    headers=[c.value for c in next(ws.iter_rows())]
+    if 'Фильм' in headers:
+        column=headers.index('Фильм')+1
+        assert all(row[0].font.bold for row in ws.iter_rows(min_row=2,min_col=column,max_col=column))
 assert w['Сборы'].max_row==11
 assert w['Сборы']['F2'].value==d['periods']['weekend']['records'][0]['gross_rub']
 assert isinstance(w['Сборы']['F2'].value,int)

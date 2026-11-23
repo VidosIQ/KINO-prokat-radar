@@ -1,5 +1,5 @@
 """Collect published Fond Kino periods. Never advance a period after failed validation."""
-import argparse, copy, hashlib, html, io, json, math, re
+import argparse, copy, hashlib, html, io, json, math, re, signal
 from datetime import datetime, date
 from pathlib import Path
 from urllib.parse import urlencode, urljoin, quote
@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 from ratings import refresh_ratings, Tree, clean
 import pdfplumber
 from openpyxl import Workbook
-from openpyxl.styles import Font, PatternFill
+from openpyxl.styles import Font, PatternFill, Alignment
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = 'https://www.fond-kino.ru/pages/otraslevaa-analitika/'
@@ -18,9 +18,15 @@ TODAY = NOW[:10]
 AUDIT = []
 
 def fetch(url, form=None):
+    print('Fetching '+url,flush=True)
     req=Request(url, data=urlencode(form).encode() if form else None,
         headers={'User-Agent':'Kinopulse/1.0 (public cinema statistics)', 'X-Requested-With':'XMLHttpRequest'})
-    with urlopen(req, timeout=60) as r: body=r.read()
+    def deadline(signum,frame):raise TimeoutError('Source request exceeded 75 seconds: '+url)
+    signal.signal(signal.SIGALRM,deadline);signal.alarm(75)
+    try:
+        with urlopen(req, timeout=30) as r: body=r.read()
+    finally:signal.alarm(0)
+    print('Received '+str(len(body))+' bytes',flush=True)
     digest=hashlib.sha256(body).hexdigest()
     AUDIT.append(dict(url=url,form=form,checked_at=NOW,sha256=digest,bytes=len(body)))
     p=ROOT/'data/evidence'/digest
@@ -90,6 +96,31 @@ def pdf_records(body, report, online):
 
 def export_excel(data):
     wb=Workbook();wb.remove(wb.active)
+    intro=wb.create_sheet('Описание')
+    for row in [
+        ['Кинопульс — Кинопрокат России',''],
+        ['Сайт','https://vidosiq.github.io/KINO-prokat-radar/'],
+        ['Сборы','Топ-5 строк ЕАИС по кассе за уикенд и неделю; сборы в рублях и число зрителей.'],
+        ['Рейтинги','Оценки зрителей, критиков и редакции хранятся отдельно, со шкалой, датой и ссылкой.'],
+        ['Фонд кино PDF','Показатели выборки отчёта и общая касса фильма на конец периода.'],
+        ['Сравнение источников','Одинаковые фильмы и даты: разница = Kinometro − ЕАИС; процент — от ЕАИС.'],
+        ['Периоды','Берём даты опубликованных отчётов Фонда кино; уикенд и неделя могут обновляться независимо.'],
+        ['Ограничения','Разные ПУ не объединяем. Отсутствие оценки не считаем нулём. Кинопоиск и IMDb пока — датированные снимки.'],
+        ['Свежесть','Даты проверки указаны на листах. Историческое сравнение может быть старше текущего уикенда.'],
+        ['Последние сборы',data['checked_date']],
+        ['Уикенд',data['periods']['weekend']['start']+' — '+data['periods']['weekend']['end']],
+        ['Неделя',data['periods']['week']['start']+' — '+data['periods']['week']['end']],
+        ['Основной источник',INDEX],
+    ]:intro.append(row)
+    intro.column_dimensions['A'].width=28;intro.column_dimensions['B'].width=100
+    intro.freeze_panes='B2';intro.sheet_view.showGridLines=False
+    for row in intro:
+        for c in row:c.alignment=Alignment(wrap_text=True,vertical='center')
+        intro.row_dimensions[row[0].row].height=42
+        row[0].font=Font(bold=True,color='5630BF')
+    for c in intro[1]:c.font=Font(bold=True,color='FFFFFF',size=13);c.fill=PatternFill('solid',fgColor='6236B6')
+    for address in ('B2','B13'):intro[address].hyperlink=intro[address].value;intro[address].style='Hyperlink'
+
     tables={
       'Сборы':(['Период','Начало','Конец','Место','Фильм','Сборы, руб.','Зрители','Проверено','Источник'],[
         [k,p['start'],p['end'],r['rank'],r['title'],r['gross_rub'],r['viewers'],p.get('checked_date',data['checked_date']),EAIS] for k,p in data['periods'].items() for r in p['records']]),
@@ -111,6 +142,11 @@ def export_excel(data):
             for c in row:
                 if c.row%2==0:c.fill=PatternFill('solid',fgColor='F3EEFA')
                 if isinstance(c.value,(int,float)):c.number_format='#,##0.0' if isinstance(c.value,float) else '#,##0'
+        title_col=headers.index('Фильм')+1 if 'Фильм' in headers else None
+        if title_col:
+            for row in ws.iter_rows(min_row=2):row[title_col-1].font=Font(bold=True)
+        if name=='Сравнение источников':
+            for row in ws.iter_rows(min_row=2):row[6].number_format='0.0000'
     wb.save(ROOT/'site/kinopulse.xlsx')
 
 def refresh_kinometro(data):
