@@ -730,10 +730,10 @@
             "refresh_status": "ok"
           },
           "kritikanstvo": {
-            "value": 52,
+            "value": 56,
             "scale": 100,
             "url": "https://kritikanstvo.ru/movies/rozhdenieimperii/",
-            "count": 6,
+            "count": 8,
             "count_label": null,
             "status": "confirmed",
             "checked_date": "2026-11-25",
@@ -813,7 +813,7 @@
             "value": 72,
             "scale": 100,
             "url": "https://kritikanstvo.ru/movies/bitvamotorov/",
-            "count": 21,
+            "count": 22,
             "count_label": null,
             "status": "confirmed",
             "checked_date": "2026-11-25",
