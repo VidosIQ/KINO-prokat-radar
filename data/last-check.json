@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T17:29:41+03:00",
+  "checked_at": "2026-11-26T03:27:39+03:00",
   "new_report": false,
   "reports": {
     "weekend": {
@@ -21,86 +21,86 @@
     {
       "url": "https://www.fond-kino.ru/pages/otraslevaa-analitika/",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "51612678196194699766fac64535bad1f43ce0e6a532da17c3ac016e202a9575",
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "dd78335986fc19405ff794a02b709afb1bc242891218f902f7510a55eb911c92",
       "bytes": 17488
     },
     {
       "url": "https://www.film.ru/movies/rozhdenie-imperii",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "b91d1c932dc0e49caca192ec6211e131b9038d4f68fe8b8e644b2dd7383b0a71",
-      "bytes": 140578
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "2c3b88203da59abacce3c77692063f110ba83027c94418e82053e8f750962e33",
+      "bytes": 140708
     },
     {
       "url": "https://kritikanstvo.ru/movies/rozhdenieimperii/",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
+      "checked_at": "2026-11-26T03:27:39+03:00",
       "sha256": "a0d91c72458ab16c75b814db11bd6cb23e3e26b0e0a71d63d10bfd769c790d27",
       "bytes": 63349
     },
     {
       "url": "https://www.film.ru/movies/bitva-motorov",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "0eecf7e59389ac0ad2fdb727548f338fc5d488fea908fd0359b156963920f1bc",
-      "bytes": 149452
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "9c4db55cfb484df811dd1ba18dbcb92ab3b5fad0ff61c7f54dada929e8c55370",
+      "bytes": 149577
     },
     {
       "url": "https://kritikanstvo.ru/movies/bitvamotorov/",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
+      "checked_at": "2026-11-26T03:27:39+03:00",
       "sha256": "821d2d3130804bfa16985ab395b0c0a34e9141b90404e77958b261d39bec44f5",
       "bytes": 80971
     },
     {
       "url": "https://www.film.ru/movies/priklyucheniya-pingvinenka",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "2b6a78cb39b813a3ebe7cf8b2d7dce663bdf3061c8c9daac3dd5bef69bd1f873",
-      "bytes": 116979
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "c3ecd367226fff4db59e4f15ed0a2adc8aff599bdc5b6b5df76df43e530b2c7e",
+      "bytes": 117118
     },
     {
       "url": "https://kritikanstvo.ru/movies/priklyucheniyapingvinenka/",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
+      "checked_at": "2026-11-26T03:27:39+03:00",
       "sha256": "ab193a6e00373659f45c42ada9451fd6da5c42ea2b8856ea996caa225aceddd8",
       "bytes": 52476
     },
     {
       "url": "https://www.film.ru/movies/pletyonyy-muzh",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "0fa2da5f17e531b83a038c287605069f6bd92c1f88505dc0e3fdb0473a5c590f",
-      "bytes": 151570
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "bae9c1b23ae45f5dec81ed31bd6dee47846383226e36553ec0f2dc10ee86f7fc",
+      "bytes": 151695
     },
     {
       "url": "http://www.kritikanstvo.ru/movies/pletyonyijmuzh",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
+      "checked_at": "2026-11-26T03:27:39+03:00",
       "sha256": "a2b2811d50a9e517eaf8fc131a6c3538aaf4aabd08e9648a86900573d904b038",
       "bytes": 77332
     },
     {
       "url": "https://www.film.ru/movies/psihopatka",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "e6fbf98bbb3520d3d2396540bd7e8bfd187e02d488abd26e0d980a8be9afcf50",
-      "bytes": 142999
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "fc0e13989074c9cc1905f8611151f15887f133c2a2d2973767c3a106b8f217c5",
+      "bytes": 143117
     },
     {
       "url": "https://kritikanstvo.ru/movies/victorianpsycho/",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
+      "checked_at": "2026-11-26T03:27:39+03:00",
       "sha256": "66a1bd2b7a873b2e1970029ed0f0758974b1fc8c3dac1e40cc75787a59a5f5aa",
       "bytes": 65264
     },
     {
       "url": "https://www.kinometro.ru/box/show/region/ruonly/",
       "form": null,
-      "checked_at": "2026-11-25T17:29:41+03:00",
-      "sha256": "6b5bd82e65796a82c55af48a5bbe28079f2b8fd95c3a1cb924775a33ffd07754",
-      "bytes": 65377
+      "checked_at": "2026-11-26T03:27:39+03:00",
+      "sha256": "6227b78399420f3ff5c2547bdf03c3c6ad1df280a47404fc48f6a4cb6aef275b",
+      "bytes": 66304
     }
   ]
 }

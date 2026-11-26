@@ -280,10 +280,10 @@
         "source_url": "https://www.kinometro.ru/box/show/region/ruonly/"
       }
     ],
-    "checked_date": "2026-11-25",
+    "checked_date": "2026-11-26",
     "territory": "Russia",
     "latest_available_period": "2026-11-19 — 2026-11-22",
-    "last_attempt": "2026-11-25"
+    "last_attempt": "2026-11-26"
   },
   "pdf_reports": [
     {
@@ -702,7 +702,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "kp-empire-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "imdb": {
@@ -714,19 +714,19 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "imdb-empire-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "filmru_users": {
             "value": 7.0,
             "scale": 10,
             "url": "https://www.film.ru/movies/rozhdenie-imperii",
-            "count": 66,
+            "count": 67,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-empire.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "kritikanstvo": {
@@ -736,9 +736,9 @@
             "count": 8,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "critics-empire.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "filmru_editor": {
@@ -748,9 +748,9 @@
             "count": null,
             "count_label": null,
             "status": "not_available",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-empire.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "megacritic": {
@@ -762,7 +762,7 @@
             "status": "not_confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": null,
-            "last_attempt": "2026-11-25"
+            "last_attempt": "2026-11-26"
           }
         }
       },
@@ -782,7 +782,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "kp-motors-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "imdb": {
@@ -794,7 +794,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "imdb-motors-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "filmru_users": {
@@ -804,9 +804,9 @@
             "count": 366,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-motors.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "kritikanstvo": {
@@ -816,9 +816,9 @@
             "count": 22,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "critics-motors.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "filmru_editor": {
@@ -828,9 +828,9 @@
             "count": null,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-motors.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "megacritic": {
@@ -842,7 +842,7 @@
             "status": "not_confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": null,
-            "last_attempt": "2026-11-25"
+            "last_attempt": "2026-11-26"
           }
         }
       },
@@ -862,7 +862,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "kp-penguin-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "imdb": {
@@ -874,7 +874,7 @@
             "status": "not_available",
             "checked_date": "2026-11-24",
             "evidence_file": "imdb-penguin-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "filmru_users": {
@@ -884,9 +884,9 @@
             "count": 8,
             "count_label": null,
             "status": "insufficient_votes",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-penguin.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "kritikanstvo": {
@@ -896,9 +896,9 @@
             "count": 0,
             "count_label": null,
             "status": "no_reviews",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "critics-penguin.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "filmru_editor": {
@@ -908,9 +908,9 @@
             "count": null,
             "count_label": null,
             "status": "not_available",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-penguin.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "megacritic": {
@@ -922,7 +922,7 @@
             "status": "not_confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": null,
-            "last_attempt": "2026-11-25"
+            "last_attempt": "2026-11-26"
           }
         }
       },
@@ -942,7 +942,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "kp-wicker-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "imdb": {
@@ -954,7 +954,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "imdb-wicker-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "filmru_users": {
@@ -964,9 +964,9 @@
             "count": 47,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-wicker.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "kritikanstvo": {
@@ -976,9 +976,9 @@
             "count": 18,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "critics-wicker.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "filmru_editor": {
@@ -988,9 +988,9 @@
             "count": null,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-wicker.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "megacritic": {
@@ -1002,7 +1002,7 @@
             "status": "not_confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": null,
-            "last_attempt": "2026-11-25"
+            "last_attempt": "2026-11-26"
           }
         }
       },
@@ -1022,7 +1022,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "kp-psycho-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "imdb": {
@@ -1034,7 +1034,7 @@
             "status": "confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": "imdb-psycho-browser.txt",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "saved_snapshot"
           },
           "filmru_users": {
@@ -1044,9 +1044,9 @@
             "count": 15,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-psycho.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "kritikanstvo": {
@@ -1056,9 +1056,9 @@
             "count": 10,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "critics-psycho.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "filmru_editor": {
@@ -1068,9 +1068,9 @@
             "count": null,
             "count_label": null,
             "status": "confirmed",
-            "checked_date": "2026-11-25",
+            "checked_date": "2026-11-26",
             "evidence_file": "filmru-psycho.html",
-            "last_attempt": "2026-11-25",
+            "last_attempt": "2026-11-26",
             "refresh_status": "ok"
           },
           "megacritic": {
@@ -1082,7 +1082,7 @@
             "status": "not_confirmed",
             "checked_date": "2026-11-24",
             "evidence_file": null,
-            "last_attempt": "2026-11-25"
+            "last_attempt": "2026-11-26"
           }
         }
       },
