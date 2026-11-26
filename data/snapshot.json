@@ -1,5 +1,5 @@
 {
-  "checked_date": "2026-11-24",
+  "checked_date": "2026-11-26",
   "periods": {
     "weekend": {
       "kind": "weekend",
@@ -8,42 +8,42 @@
       "end": "2026-11-22",
       "source_url": "https://www.fond-kino.ru/documents/download/2837/",
       "report_url": "https://www.fond-kino.ru/documents/download/2837/",
-      "checked_date": "2026-11-24",
+      "checked_date": "2026-11-26",
       "records": [
         {
           "rank": 1,
           "title": "Рождение империи",
           "certificate": "111243426",
-          "gross_rub": 97275456,
-          "viewers": 188222
+          "gross_rub": 97614514,
+          "viewers": 188743
         },
         {
           "rank": 2,
           "title": "Дедмобиль",
           "certificate": "111130626",
-          "gross_rub": 69217730,
-          "viewers": 148245
+          "gross_rub": 69496309,
+          "viewers": 148732
         },
         {
           "rank": 3,
           "title": "Колотун и волшебное королевство",
           "certificate": "111264126",
-          "gross_rub": 50294031,
-          "viewers": 119149
+          "gross_rub": 50526671,
+          "viewers": 119626
         },
         {
           "rank": 4,
           "title": "Рокки-это я (дубляж)",
           "certificate": "121259526",
-          "gross_rub": 49417468,
-          "viewers": 81255
+          "gross_rub": 49635227,
+          "viewers": 81611
         },
         {
           "rank": 5,
           "title": "Битва моторов",
           "certificate": "111225926",
-          "gross_rub": 45635664,
-          "viewers": 79262
+          "gross_rub": 45792902,
+          "viewers": 79514
         }
       ],
       "coverage_count": 100,
@@ -54,14 +54,14 @@
             "periodStart": "2026.11.19",
             "periodEnd": "2026.11.22"
           },
-          "checked_at": "2026-11-24T01:01:10+03:00",
-          "sha256": "c68a59ce786262776d10ec6ca2e143208fd6558594d9a705b06c8cf946b79c9f",
-          "bytes": 409708
+          "checked_at": "2026-11-26T14:08:45+03:00",
+          "sha256": "bdba40a0621614e840391bd63ffb350997d55ce37ad68259315e0c1cf7444afc",
+          "bytes": 410419
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2837/",
           "form": null,
-          "checked_at": "2026-11-24T01:01:10+03:00",
+          "checked_at": "2026-11-26T14:08:45+03:00",
           "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
           "bytes": 334197
         }
@@ -74,21 +74,21 @@
       "end": "2026-11-18",
       "source_url": "https://www.fond-kino.ru/documents/download/2835/",
       "report_url": "https://www.fond-kino.ru/documents/download/2835/",
-      "checked_date": "2026-11-24",
+      "checked_date": "2026-11-26",
       "records": [
         {
           "rank": 1,
           "title": "Рождение империи",
           "certificate": "111243426",
           "gross_rub": 201222537,
-          "viewers": 438963
+          "viewers": 438964
         },
         {
           "rank": 2,
           "title": "Битва моторов",
           "certificate": "111225926",
-          "gross_rub": 84826035,
-          "viewers": 156532
+          "gross_rub": 84825355,
+          "viewers": 156531
         },
         {
           "rank": 3,
@@ -101,15 +101,15 @@
           "rank": 4,
           "title": "Приключения пингвиненка",
           "certificate": "114254626",
-          "gross_rub": 52260326,
-          "viewers": 130394
+          "gross_rub": 52260806,
+          "viewers": 130396
         },
         {
           "rank": 5,
           "title": "ПСИХОПАТКА",
           "certificate": "121247326",
-          "gross_rub": 50625727,
-          "viewers": 95040
+          "gross_rub": 50633277,
+          "viewers": 95047
         }
       ],
       "coverage_count": 100,
@@ -120,14 +120,14 @@
             "periodStart": "2026.11.12",
             "periodEnd": "2026.11.18"
           },
-          "checked_at": "2026-11-24T01:01:10+03:00",
-          "sha256": "5a4c32d607ccb56fee1387f8c9c9c9deccfe797c3f06339a65b4da06644efa0c",
-          "bytes": 413722
+          "checked_at": "2026-11-26T14:08:45+03:00",
+          "sha256": "2ffd52a3e18fb30d1dfa1a8fe6614457b89af9572718749c302bba2dfd0ff00a",
+          "bytes": 413775
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2835/",
           "form": null,
-          "checked_at": "2026-11-24T01:01:10+03:00",
+          "checked_at": "2026-11-26T14:08:45+03:00",
           "sha256": "e9de5e27c4351d7c0e10c7a4f0ae7a230909b335f8536bdb53c0c3374081af4a",
           "bytes": 581344
         }
@@ -1391,42 +1391,42 @@
     "end": "2026-11-22",
     "source_url": "https://www.fond-kino.ru/documents/download/2837/",
     "report_url": "https://www.fond-kino.ru/documents/download/2837/",
-    "checked_date": "2026-11-24",
+    "checked_date": "2026-11-26",
     "records": [
       {
         "rank": 1,
         "title": "Рождение империи",
         "certificate": "111243426",
-        "gross_rub": 97275456,
-        "viewers": 188222
+        "gross_rub": 97614514,
+        "viewers": 188743
       },
       {
         "rank": 2,
         "title": "Дедмобиль",
         "certificate": "111130626",
-        "gross_rub": 69217730,
-        "viewers": 148245
+        "gross_rub": 69496309,
+        "viewers": 148732
       },
       {
         "rank": 3,
         "title": "Колотун и волшебное королевство",
         "certificate": "111264126",
-        "gross_rub": 50294031,
-        "viewers": 119149
+        "gross_rub": 50526671,
+        "viewers": 119626
       },
       {
         "rank": 4,
         "title": "Рокки-это я (дубляж)",
         "certificate": "121259526",
-        "gross_rub": 49417468,
-        "viewers": 81255
+        "gross_rub": 49635227,
+        "viewers": 81611
       },
       {
         "rank": 5,
         "title": "Битва моторов",
         "certificate": "111225926",
-        "gross_rub": 45635664,
-        "viewers": 79262
+        "gross_rub": 45792902,
+        "viewers": 79514
       }
     ],
     "coverage_count": 100,
@@ -1437,14 +1437,14 @@
           "periodStart": "2026.11.19",
           "periodEnd": "2026.11.22"
         },
-        "checked_at": "2026-11-24T01:01:10+03:00",
-        "sha256": "c68a59ce786262776d10ec6ca2e143208fd6558594d9a705b06c8cf946b79c9f",
-        "bytes": 409708
+        "checked_at": "2026-11-26T14:08:45+03:00",
+        "sha256": "bdba40a0621614e840391bd63ffb350997d55ce37ad68259315e0c1cf7444afc",
+        "bytes": 410419
       },
       {
         "url": "https://www.fond-kino.ru/documents/download/2837/",
         "form": null,
-        "checked_at": "2026-11-24T01:01:10+03:00",
+        "checked_at": "2026-11-26T14:08:45+03:00",
         "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
         "bytes": 334197
       }
