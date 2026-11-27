@@ -739,7 +739,7 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-empire.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "unavailable",
+            "refresh_status": "ok",
             "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
@@ -814,13 +814,13 @@
             "value": 72,
             "scale": 100,
             "url": "https://kritikanstvo.ru/movies/bitvamotorov/",
-            "count": 22,
+            "count": 23,
             "count_label": null,
             "status": "confirmed",
             "checked_date": "2026-11-27",
             "evidence_file": "critics-motors.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "unavailable",
+            "refresh_status": "ok",
             "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
@@ -901,7 +901,7 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-penguin.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "unavailable",
+            "refresh_status": "ok",
             "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
@@ -961,10 +961,10 @@
             "refresh_status": "saved_snapshot"
           },
           "filmru_users": {
-            "value": 7.3,
+            "value": 7.2,
             "scale": 10,
             "url": "https://www.film.ru/movies/pletyonyy-muzh",
-            "count": 47,
+            "count": 48,
             "count_label": null,
             "status": "confirmed",
             "checked_date": "2026-11-27",
@@ -982,7 +982,7 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-wicker.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "unavailable",
+            "refresh_status": "ok",
             "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
@@ -1063,7 +1063,7 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-psycho.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "unavailable",
+            "refresh_status": "ok",
             "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
