@@ -14,8 +14,8 @@
           "rank": 1,
           "title": "Рождение империи",
           "certificate": "111243426",
-          "gross_rub": 97614514,
-          "viewers": 188743
+          "gross_rub": 97612014,
+          "viewers": 188738
         },
         {
           "rank": 2,
@@ -35,8 +35,8 @@
           "rank": 4,
           "title": "Рокки-это я (дубляж)",
           "certificate": "121259526",
-          "gross_rub": 49635227,
-          "viewers": 81611
+          "gross_rub": 49633527,
+          "viewers": 81607
         },
         {
           "rank": 5,
@@ -54,14 +54,14 @@
             "periodStart": "2026.11.19",
             "periodEnd": "2026.11.22"
           },
-          "checked_at": "2026-11-27T13:23:28+03:00",
-          "sha256": "44d03e040cbc41b5ac02badff00c0e4520e91ece395054d473326661fba50f57",
-          "bytes": 410479
+          "checked_at": "2026-11-27T19:23:26+03:00",
+          "sha256": "445c05c9adead5997fc92cc0cc4c5caebdfbdb74021f814813d37167b2d98b73",
+          "bytes": 410499
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2837/",
           "form": null,
-          "checked_at": "2026-11-27T13:23:28+03:00",
+          "checked_at": "2026-11-27T19:23:26+03:00",
           "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
           "bytes": 334197
         }
@@ -80,8 +80,8 @@
           "rank": 1,
           "title": "Рождение империи",
           "certificate": "111243426",
-          "gross_rub": 201219737,
-          "viewers": 438960
+          "gross_rub": 201220267,
+          "viewers": 438961
         },
         {
           "rank": 2,
@@ -94,8 +94,8 @@
           "rank": 3,
           "title": "Плетёный муж",
           "certificate": "121241726",
-          "gross_rub": 54321810,
-          "viewers": 95770
+          "gross_rub": 54322060,
+          "viewers": 95771
         },
         {
           "rank": 4,
@@ -120,14 +120,14 @@
             "periodStart": "2026.11.12",
             "periodEnd": "2026.11.18"
           },
-          "checked_at": "2026-11-27T13:23:28+03:00",
-          "sha256": "492cf2c8cc9dd8bb62e628ba1f84d9ff1fc126615d53f8836e7c81cb3d5f47b7",
-          "bytes": 413801
+          "checked_at": "2026-11-27T19:23:26+03:00",
+          "sha256": "3db14b298ad3a0bb3d7dc5e4ea7277187e128655b8d65d3286446dbdd9d56574",
+          "bytes": 413810
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2835/",
           "form": null,
-          "checked_at": "2026-11-27T13:23:28+03:00",
+          "checked_at": "2026-11-27T19:23:26+03:00",
           "sha256": "e9de5e27c4351d7c0e10c7a4f0ae7a230909b335f8536bdb53c0c3374081af4a",
           "bytes": 581344
         }
@@ -982,8 +982,8 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-wicker.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "ok",
-            "refresh_error": "The read operation timed out"
+            "refresh_status": "unavailable",
+            "refresh_error": "<urlopen error timed out>"
           },
           "filmru_editor": {
             "value": 7.0,
@@ -1402,8 +1402,8 @@
         "rank": 1,
         "title": "Рождение империи",
         "certificate": "111243426",
-        "gross_rub": 97614514,
-        "viewers": 188743
+        "gross_rub": 97612014,
+        "viewers": 188738
       },
       {
         "rank": 2,
@@ -1423,8 +1423,8 @@
         "rank": 4,
         "title": "Рокки-это я (дубляж)",
         "certificate": "121259526",
-        "gross_rub": 49635227,
-        "viewers": 81611
+        "gross_rub": 49633527,
+        "viewers": 81607
       },
       {
         "rank": 5,
@@ -1442,14 +1442,14 @@
           "periodStart": "2026.11.19",
           "periodEnd": "2026.11.22"
         },
-        "checked_at": "2026-11-27T13:23:28+03:00",
-        "sha256": "44d03e040cbc41b5ac02badff00c0e4520e91ece395054d473326661fba50f57",
-        "bytes": 410479
+        "checked_at": "2026-11-27T19:23:26+03:00",
+        "sha256": "445c05c9adead5997fc92cc0cc4c5caebdfbdb74021f814813d37167b2d98b73",
+        "bytes": 410499
       },
       {
         "url": "https://www.fond-kino.ru/documents/download/2837/",
         "form": null,
-        "checked_at": "2026-11-27T13:23:28+03:00",
+        "checked_at": "2026-11-27T19:23:26+03:00",
         "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
         "bytes": 334197
       }
