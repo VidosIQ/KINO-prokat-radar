@@ -28,8 +28,8 @@
           "rank": 3,
           "title": "Колотун и волшебное королевство",
           "certificate": "111264126",
-          "gross_rub": 50526321,
-          "viewers": 119625
+          "gross_rub": 50527691,
+          "viewers": 119631
         },
         {
           "rank": 4,
@@ -54,14 +54,14 @@
             "periodStart": "2026.11.19",
             "periodEnd": "2026.11.22"
           },
-          "checked_at": "2026-11-27T07:23:23+03:00",
-          "sha256": "01a8a6927fcedd08e9360cfb5079e7040a1231e318d99aa9e6615916e9d1f97b",
-          "bytes": 410455
+          "checked_at": "2026-11-27T13:23:28+03:00",
+          "sha256": "44d03e040cbc41b5ac02badff00c0e4520e91ece395054d473326661fba50f57",
+          "bytes": 410479
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2837/",
           "form": null,
-          "checked_at": "2026-11-27T07:23:23+03:00",
+          "checked_at": "2026-11-27T13:23:28+03:00",
           "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
           "bytes": 334197
         }
@@ -120,14 +120,14 @@
             "periodStart": "2026.11.12",
             "periodEnd": "2026.11.18"
           },
-          "checked_at": "2026-11-27T07:23:23+03:00",
-          "sha256": "7ee930991667202bb49bb017db33724f2708bcc2efb73f5b9d835150ec3c3b0c",
-          "bytes": 413793
+          "checked_at": "2026-11-27T13:23:28+03:00",
+          "sha256": "492cf2c8cc9dd8bb62e628ba1f84d9ff1fc126615d53f8836e7c81cb3d5f47b7",
+          "bytes": 413801
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2835/",
           "form": null,
-          "checked_at": "2026-11-27T07:23:23+03:00",
+          "checked_at": "2026-11-27T13:23:28+03:00",
           "sha256": "e9de5e27c4351d7c0e10c7a4f0ae7a230909b335f8536bdb53c0c3374081af4a",
           "bytes": 581344
         }
@@ -739,7 +739,8 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-empire.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "ok"
+            "refresh_status": "unavailable",
+            "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
             "value": null,
@@ -801,7 +802,7 @@
             "value": 8.1,
             "scale": 10,
             "url": "https://www.film.ru/movies/bitva-motorov",
-            "count": 367,
+            "count": 368,
             "count_label": null,
             "status": "confirmed",
             "checked_date": "2026-11-27",
@@ -819,7 +820,8 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-motors.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "ok"
+            "refresh_status": "unavailable",
+            "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
             "value": 7.0,
@@ -899,7 +901,8 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-penguin.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "ok"
+            "refresh_status": "unavailable",
+            "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
             "value": null,
@@ -979,7 +982,8 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-wicker.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "ok"
+            "refresh_status": "unavailable",
+            "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
             "value": 7.0,
@@ -1059,7 +1063,8 @@
             "checked_date": "2026-11-27",
             "evidence_file": "critics-psycho.html",
             "last_attempt": "2026-11-27",
-            "refresh_status": "ok"
+            "refresh_status": "unavailable",
+            "refresh_error": "The read operation timed out"
           },
           "filmru_editor": {
             "value": 7.0,
@@ -1411,8 +1416,8 @@
         "rank": 3,
         "title": "Колотун и волшебное королевство",
         "certificate": "111264126",
-        "gross_rub": 50526321,
-        "viewers": 119625
+        "gross_rub": 50527691,
+        "viewers": 119631
       },
       {
         "rank": 4,
@@ -1437,14 +1442,14 @@
           "periodStart": "2026.11.19",
           "periodEnd": "2026.11.22"
         },
-        "checked_at": "2026-11-27T07:23:23+03:00",
-        "sha256": "01a8a6927fcedd08e9360cfb5079e7040a1231e318d99aa9e6615916e9d1f97b",
-        "bytes": 410455
+        "checked_at": "2026-11-27T13:23:28+03:00",
+        "sha256": "44d03e040cbc41b5ac02badff00c0e4520e91ece395054d473326661fba50f57",
+        "bytes": 410479
       },
       {
         "url": "https://www.fond-kino.ru/documents/download/2837/",
         "form": null,
-        "checked_at": "2026-11-27T07:23:23+03:00",
+        "checked_at": "2026-11-27T13:23:28+03:00",
         "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
         "bytes": 334197
       }
