@@ -28,8 +28,8 @@
           "rank": 3,
           "title": "Колотун и волшебное королевство",
           "certificate": "111264126",
-          "gross_rub": 50527691,
-          "viewers": 119631
+          "gross_rub": 50524891,
+          "viewers": 119627
         },
         {
           "rank": 4,
@@ -54,14 +54,14 @@
             "periodStart": "2026.11.19",
             "periodEnd": "2026.11.22"
           },
-          "checked_at": "2026-11-28T13:23:18+03:00",
-          "sha256": "3beba5b43d88838c9c2ae38cce07c015dd0ee335b2195439623aec4549b4feee",
-          "bytes": 410525
+          "checked_at": "2026-11-28T19:23:20+03:00",
+          "sha256": "319a941ad6237f98041674fab6d63a8cfe2dcfb4350ee13805a97174f7562c54",
+          "bytes": 410536
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2837/",
           "form": null,
-          "checked_at": "2026-11-28T13:23:18+03:00",
+          "checked_at": "2026-11-28T19:23:20+03:00",
           "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
           "bytes": 334197
         }
@@ -120,14 +120,14 @@
             "periodStart": "2026.11.12",
             "periodEnd": "2026.11.18"
           },
-          "checked_at": "2026-11-28T13:23:18+03:00",
-          "sha256": "fa8b8c1d5e9efb2fa2d7f3bdbb57a9bf5ababedac54b8378c590d024bf27fdbb",
-          "bytes": 413824
+          "checked_at": "2026-11-28T19:23:20+03:00",
+          "sha256": "8eeb6f2828ac3b7a665adf1448de7112baad3c343a6f216c3fd2ca043fd9000c",
+          "bytes": 413826
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2835/",
           "form": null,
-          "checked_at": "2026-11-28T13:23:18+03:00",
+          "checked_at": "2026-11-28T19:23:20+03:00",
           "sha256": "e9de5e27c4351d7c0e10c7a4f0ae7a230909b335f8536bdb53c0c3374081af4a",
           "bytes": 581344
         }
@@ -721,7 +721,7 @@
             "value": 7.0,
             "scale": 10,
             "url": "https://www.film.ru/movies/rozhdenie-imperii",
-            "count": 69,
+            "count": 70,
             "count_label": null,
             "status": "confirmed",
             "checked_date": "2026-11-28",
@@ -1416,8 +1416,8 @@
         "rank": 3,
         "title": "Колотун и волшебное королевство",
         "certificate": "111264126",
-        "gross_rub": 50527691,
-        "viewers": 119631
+        "gross_rub": 50524891,
+        "viewers": 119627
       },
       {
         "rank": 4,
@@ -1442,14 +1442,14 @@
           "periodStart": "2026.11.19",
           "periodEnd": "2026.11.22"
         },
-        "checked_at": "2026-11-28T13:23:18+03:00",
-        "sha256": "3beba5b43d88838c9c2ae38cce07c015dd0ee335b2195439623aec4549b4feee",
-        "bytes": 410525
+        "checked_at": "2026-11-28T19:23:20+03:00",
+        "sha256": "319a941ad6237f98041674fab6d63a8cfe2dcfb4350ee13805a97174f7562c54",
+        "bytes": 410536
       },
       {
         "url": "https://www.fond-kino.ru/documents/download/2837/",
         "form": null,
-        "checked_at": "2026-11-28T13:23:18+03:00",
+        "checked_at": "2026-11-28T19:23:20+03:00",
         "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
         "bytes": 334197
       }
