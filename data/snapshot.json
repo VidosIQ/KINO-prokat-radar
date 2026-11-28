@@ -1,5 +1,5 @@
 {
-  "checked_date": "2026-11-27",
+  "checked_date": "2026-11-28",
   "periods": {
     "weekend": {
       "kind": "weekend",
@@ -8,7 +8,7 @@
       "end": "2026-11-22",
       "source_url": "https://www.fond-kino.ru/documents/download/2837/",
       "report_url": "https://www.fond-kino.ru/documents/download/2837/",
-      "checked_date": "2026-11-27",
+      "checked_date": "2026-11-28",
       "records": [
         {
           "rank": 1,
@@ -54,14 +54,14 @@
             "periodStart": "2026.11.19",
             "periodEnd": "2026.11.22"
           },
-          "checked_at": "2026-11-27T19:23:26+03:00",
-          "sha256": "445c05c9adead5997fc92cc0cc4c5caebdfbdb74021f814813d37167b2d98b73",
-          "bytes": 410499
+          "checked_at": "2026-11-28T07:23:23+03:00",
+          "sha256": "bd8bc01bcfb6b61e02f5c54c3662bc8dc77dd9ff52e430ed0ceda2494814aa22",
+          "bytes": 410516
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2837/",
           "form": null,
-          "checked_at": "2026-11-27T19:23:26+03:00",
+          "checked_at": "2026-11-28T07:23:23+03:00",
           "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
           "bytes": 334197
         }
@@ -74,7 +74,7 @@
       "end": "2026-11-18",
       "source_url": "https://www.fond-kino.ru/documents/download/2835/",
       "report_url": "https://www.fond-kino.ru/documents/download/2835/",
-      "checked_date": "2026-11-27",
+      "checked_date": "2026-11-28",
       "records": [
         {
           "rank": 1,
@@ -120,14 +120,14 @@
             "periodStart": "2026.11.12",
             "periodEnd": "2026.11.18"
           },
-          "checked_at": "2026-11-27T19:23:26+03:00",
-          "sha256": "3db14b298ad3a0bb3d7dc5e4ea7277187e128655b8d65d3286446dbdd9d56574",
-          "bytes": 413810
+          "checked_at": "2026-11-28T07:23:23+03:00",
+          "sha256": "202280b52e9c966fcfe837f39b1d2278e7ce22d97f44f3cb8e173f76d9551e4d",
+          "bytes": 413820
         },
         {
           "url": "https://www.fond-kino.ru/documents/download/2835/",
           "form": null,
-          "checked_at": "2026-11-27T19:23:26+03:00",
+          "checked_at": "2026-11-28T07:23:23+03:00",
           "sha256": "e9de5e27c4351d7c0e10c7a4f0ae7a230909b335f8536bdb53c0c3374081af4a",
           "bytes": 581344
         }
@@ -1396,7 +1396,7 @@
     "end": "2026-11-22",
     "source_url": "https://www.fond-kino.ru/documents/download/2837/",
     "report_url": "https://www.fond-kino.ru/documents/download/2837/",
-    "checked_date": "2026-11-27",
+    "checked_date": "2026-11-28",
     "records": [
       {
         "rank": 1,
@@ -1442,14 +1442,14 @@
           "periodStart": "2026.11.19",
           "periodEnd": "2026.11.22"
         },
-        "checked_at": "2026-11-27T19:23:26+03:00",
-        "sha256": "445c05c9adead5997fc92cc0cc4c5caebdfbdb74021f814813d37167b2d98b73",
-        "bytes": 410499
+        "checked_at": "2026-11-28T07:23:23+03:00",
+        "sha256": "bd8bc01bcfb6b61e02f5c54c3662bc8dc77dd9ff52e430ed0ceda2494814aa22",
+        "bytes": 410516
       },
       {
         "url": "https://www.fond-kino.ru/documents/download/2837/",
         "form": null,
-        "checked_at": "2026-11-27T19:23:26+03:00",
+        "checked_at": "2026-11-28T07:23:23+03:00",
         "sha256": "9bf9d6bdad33742d889e73f7b0cc3835240329f74a4b74a589419212b30a1738",
         "bytes": 334197
       }
